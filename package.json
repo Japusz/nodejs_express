@@ -5,14 +5,15 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
-   },
+  },
   "author": "Japusz",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.13"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "iconv-lite": "^0.6.3"
+    "iconv-lite": "^0.6.3",
+    "morgan": "^1.10.0"
   }
 }
